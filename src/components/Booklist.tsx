@@ -18,6 +18,14 @@ export default function Booklist(props:book) {
     const [searchValue, setSearchValue] = useState('')
     const [tagValue, settagValue] = useState('')
 
+
+
+    let refresh =(e:any)=>{
+        let data: any = localStorage.getItem('MyBooks')
+        setbooks(JSON.parse(data))
+    }
+
+
     let search = (e: any) => 
     {
        
@@ -71,14 +79,15 @@ export default function Booklist(props:book) {
         <div>
             <div className="SerachBar">
                 <select className="filterClass" value={tagValue} onChange={handleFilterChanges}>
-                    <option value="choose">Choose..</option>
+                    <option value="choose">Filter By</option>
                     <option value="Author">Author</option>
                     <option value="title">Title</option>
                     <option value="Price">Max Price Range</option>
                     <option value="rating">Rating Range </option>
                 </select>
                 <input type="text" name="searchValue" value={searchValue} onChange={handleChanges} />
-                <button onClick={search}>Search</button>
+                <button onClick={search}>Filter</button>
+                <button onClick={refresh}>Refresh</button>
             </div>
 
             { bookdata.map((row: any) => {
@@ -94,9 +103,9 @@ export default function Booklist(props:book) {
                                
                               {/* {console.log("rating",num)} */}
                             <StarRatings
-                                 rating={num}
+                                rating={num}
                                 starDimension="25px"
-                                    starSpacing="8px"
+                                starSpacing="8px"
                                  starRatedColor="#380b5c"
                                  starEmptyColor="#8a8a8a"
                                  starHoverColor="#622dd6"
