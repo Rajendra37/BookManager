@@ -1,0 +1,32 @@
+.linkClass:hover
+{     
+      margin-top: 3.5px;
+      background-color: #e3e3e3;
+      color: #380b5c;
+      border-radius: 7px;
+      
+}
+.AddBookForm button:hover
+{
+      background-color:#622dd6;
+      color: #ffffff;
+      box-shadow: rgb(12, 12, 12);
+}
+.CardView button:hover
+{
+      background-color:rgb(98, 45, 214);
+      color: #ffffff;
+      box-shadow: rgb(12, 12, 12);
+}
+.SerachBar button:hover
+{
+      background-color:rgb(98, 45, 214);
+      color: #ffffff;
+      box-shadow: rgb(12, 12, 12);
+}
+.DetailCard button:hover
+{
+      background-color:rgb(98, 45, 214);
+      color: #ffffff;
+      box-shadow: rgb(12, 12, 12);
+}

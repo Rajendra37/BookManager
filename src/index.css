@@ -1,0 +1,190 @@
+.headerClass
+{
+ 
+    overflow: auto;
+    background-color: #380b5c;
+
+}
+.headerClass a 
+{
+  float: right;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.headerClass a.heading 
+{
+  float: left;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.AddBookForm
+{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  float:left;
+  margin-left: 40%;
+  margin-right: 40%;
+  /* height: 300px; */
+  /* width: 300px; */
+  padding: 30px 40px;
+  align-items: center;
+  background-color: #e3e3e3;
+
+}
+.AddBookForm input
+{
+  padding: 10px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #380b5c;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  width: 200px;
+  border-radius: 5px;
+  
+}
+
+.AddBookForm button
+{
+  border: none;
+  padding: 10px;
+  background-color: #380b5c;
+  color: white;
+  font-size: 15px;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.CardView
+{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  height: 400px;
+  width: 250px;
+  margin: 20px;
+  align-items: center;
+  float:left;
+  padding: 20px 20px;
+  background-color: #e3e3e3;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  
+}
+.CardView button
+{
+    border: none;
+    background-color: #380b5c;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .CardView :hover{
+  transition: all 0.2s ease-out;
+  box-shadow: #e3e3e3;
+  top: -4px;
+  border: 1px solid #e3e3e3;
+  /* background-color: #e3e3e3; 
+} */
+
+.SerachBar
+{
+      margin-left: 35%;
+}
+
+.SerachBar input
+{
+  padding: 10px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #380b5c;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.SerachBar button
+{
+  border: none;
+  padding: 10px;
+  background-color: #380b5c;
+  color: white;
+  font-size: 15px;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.filterClass{
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #380b5c;
+  outline: none;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+/* detail view of card */
+.DetailCard
+{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  /* height: 400px; */
+  width: 500px;
+  margin: 20px;
+  align-items: center;
+  /* float:left; */
+  padding: 20px 20px;
+  background-color: #e3e3e3;
+  font-family: 'Roboto', sans-serif;
+  /* text-align: center; */
+  margin-left: 30%;
+}
+.DetailCard img
+{
+  float: left;
+  padding: 20px;
+}
+.DetailCard button
+{
+    border: none;
+    background-color: #380b5c;
+    color: white;
+    padding: 10px;
+    /* width: 100%; */
+    padding: 10px;
+    /* margin: 20px; */
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+    margin-left: 100px;
+    border-radius: 5px;
+  
+}
+.DetailCard p
+{
+  text-align: justify;
+ 
+}
+.DetailCard h1
+{
+  text-align: center;
+  text-transform: capitalize;
+  color: #380b5c;
+}
+.DetailCard h5
+{
+  text-align: center;
+  text-transform: capitalize;
+  
+}
